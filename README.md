@@ -2,31 +2,49 @@ This repository contains a comprehensive data analysis and machine learning pipe
 Key Features
 
 Data Preprocessing and Cleaning:
+
 Temporal analysis of reorder rates across days of the week and time of day.
+
 Departmental and product-level insights into reorder behavior.
 
 Machine Learning Models:
 Clustering:
-Applied k-means clustering to group users based on purchasing habits.
-Visualized clusters using PCA and t-SNE for interpretability.
+
+- k-means clustering to group users based on purchasing habits.
+
+- Visualization using PCA and t-SNE for interpretability.
+
 Recommendation System:
-Leveraged the ALS (Alternating Least Squares) algorithm to predict user-product interactions.
-Evaluated recommendations with metrics like Precision@K.
+
+- ALS (Alternating Least Squares) algorithm to predict user-product interactions.
+
 Classification Models:
-Built predictive models (e.g., XGBoost, SMOTE-enhanced classifiers) to predict reorder likelihood.
-Performed hyperparameter tuning with Bayesian optimization and RandomizedSearchCV.
-Association Rule Mining:
+
+- Predictive models (e.g., XGBoost, SMOTE-enhanced classifiers) to predict reorder likelihood.
+
+- Hyperparameter tuning with Bayesian optimization and RandomizedSearchCV.
+
+- Association Rule Mining:
+
 Applied FP-Growth to identify frequently purchased product combinations.
-Visualized associations using network graphs to highlight relationships between items.
-Natural Language Processing:
-Processed textual data using SpaCy for potential future use cases like product sentiment analysis.
-Deep Learning:
-Developed a neural collaborative filtering model using TensorFlow for personalized recommendations.
+
+- Associations using network graphs.
+ 
+- Natural Language Processing using SpaCy.
+  
+- Deep Learning: Developed a neural collaborative filtering model using TensorFlow for personalized recommendations.
+
 
 Tools and Technologies
+
 Data Processing: PySpark, Pandas, NumPy
+
 Machine Learning: MLlib, Scikit-learn, XGBoost, TensorFlow, SMOTE
+
 Data Visualization: Matplotlib, Seaborn, NetworkX, Pyvis
+
 Natural Language Processing: SpaCy
+
 Big Data: Apache Spark
+
 Development: Google Colab, Jupyter Notebooks, GitHub
